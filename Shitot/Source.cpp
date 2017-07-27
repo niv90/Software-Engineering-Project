@@ -5,7 +5,7 @@
 #include "../Panel/Panel.h"
 #include "../TextBox/TextBox.h"
 #include "../CheckList/CheckList.h"
-
+#include "../RadioBox/RadioBox.h"
 
 using namespace std;
 
@@ -24,6 +24,10 @@ int main(void) {
 	CheckList checkList(15, 14, stringsA);
 	checkList.SetBackground(BackgroundColor::Green);
 
+	RadioBox radioBox(15, 14, stringsA);
+	radioBox.SetBackground(BackgroundColor::Red);
+
+	panel.AddControl(&radioBox, 19, 2);
 	panel.AddControl(&tb, 43, 20);
 	panel.AddControl(&checkList, 2, 2);
 	
