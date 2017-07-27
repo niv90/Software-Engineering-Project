@@ -1,0 +1,3 @@
+﻿  CheckList.cpp
+c:\users\alaa\desktop\method\software-engineering-project\checklist\checklist.cpp(8): warning C4018: '>': signed/unsigned mismatch
+  CheckList.vcxproj -> C:\Users\Alaa\Desktop\method\Software-Engineering-Project\Debug\CheckList.lib
