@@ -125,6 +125,9 @@
     <ProjectReference Include="..\IControl\IControl.vcxproj">
       <Project>{cfb0e3d8-56b1-4ecb-8398-41747edfc95b}</Project>
     </ProjectReference>
+    <ProjectReference Include="..\Label\Label.vcxproj">
+      <Project>{a9d31f35-3919-43b6-83a6-4323a2378a4c}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\Panel\Panel.vcxproj">
       <Project>{22bfaede-7234-437e-ba9f-c16bc30512bd}</Project>
     </ProjectReference>
