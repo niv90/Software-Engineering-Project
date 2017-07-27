@@ -119,6 +119,9 @@
     <ResourceCompile Include="Shitot.rc" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Button\Button.vcxproj">
+      <Project>{cb936c3a-0196-4720-9c7a-001f4ad2d105}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\ConsoleEventsHandler\ConsoleEventsHandler.vcxproj">
       <Project>{18509e00-7760-44be-b9cc-ca9c52dcd01b}</Project>
     </ProjectReference>
