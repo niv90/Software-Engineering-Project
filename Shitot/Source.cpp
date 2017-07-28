@@ -7,6 +7,7 @@
 #include "../CheckList/CheckList.h"
 #include "../RadioBox/RadioBox.h"
 #include "../NumericBox/NumericBox.h"
+#include "../MessageBoxs/MessageBoxs.h"
 
 using namespace std;
 
@@ -32,10 +33,14 @@ int main(void) {
 	nb.SetBackground(BackgroundColor::Yellow);
 	nb.SetForeground(ForegroundColor::Black);
 
+	MessageBoxs mb(15, 30);
+	mb.SetBackground(BackgroundColor::Purple);
+
 	panel.AddControl(&radioBox, 19, 2);
 	panel.AddControl(&tb, 43, 20);
 	panel.AddControl(&checkList, 2, 2);
 	panel.AddControl(&nb, 2, 20);
+	panel.AddControl(&mb, 36, 2);
 
 	panel.setVisible(true);
 	
