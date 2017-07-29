@@ -1,13 +1,13 @@
 ﻿  TextBox.cpp
-c:\users\sasha\documents\shitotproject\textbox\textbox.cpp(77): warning C4018: '<': signed/unsigned mismatch
-c:\users\sasha\documents\shitotproject\textbox\textbox.cpp(147): warning C4018: '<=': signed/unsigned mismatch
-c:\users\sasha\documents\shitotproject\textbox\textbox.cpp(181): warning C4018: '<': signed/unsigned mismatch
-c:\users\sasha\documents\shitotproject\textbox\textbox.cpp(190): warning C4018: '>': signed/unsigned mismatch
-c:\users\sasha\documents\shitotproject\textbox\textbox.cpp(192): warning C4244: 'argument': conversion from 'WCHAR' to 'char', possible loss of data
-c:\users\sasha\documents\shitotproject\textbox\textbox.cpp(202): warning C4244: '=': conversion from 'WCHAR' to 'char', possible loss of data
-c:\users\sasha\documents\shitotproject\textbox\textbox.cpp(205): warning C4244: 'argument': conversion from 'WCHAR' to 'char', possible loss of data
-c:\users\sasha\documents\shitotproject\textbox\textbox.cpp(127): warning C4477: 'printf' : format string '%c' requires an argument of type 'int', but variadic argument 1 has type '_KEY_EVENT_RECORD::<unnamed-type-uChar>'
-c:\users\sasha\documents\shitotproject\textbox\textbox.cpp(136): warning C4477: 'printf' : format string '%c' requires an argument of type 'int', but variadic argument 1 has type '_KEY_EVENT_RECORD::<unnamed-type-uChar>'
-c:\users\sasha\documents\shitotproject\textbox\textbox.cpp(196): warning C4477: 'printf' : format string '%c' requires an argument of type 'int', but variadic argument 1 has type '_KEY_EVENT_RECORD::<unnamed-type-uChar>'
-c:\users\sasha\documents\shitotproject\textbox\textbox.cpp(224): warning C4018: '<=': signed/unsigned mismatch
-  TextBox.vcxproj -> C:\Users\sasha\Documents\shitotProject\Debug\TextBox.lib
+c:\users\niv\desktop\test1\software-engineering-project\textbox\textbox.cpp(77): warning C4018: '<': signed/unsigned mismatch
+c:\users\niv\desktop\test1\software-engineering-project\textbox\textbox.cpp(147): warning C4018: '<=': signed/unsigned mismatch
+c:\users\niv\desktop\test1\software-engineering-project\textbox\textbox.cpp(181): warning C4018: '<': signed/unsigned mismatch
+c:\users\niv\desktop\test1\software-engineering-project\textbox\textbox.cpp(190): warning C4018: '>': signed/unsigned mismatch
+c:\users\niv\desktop\test1\software-engineering-project\textbox\textbox.cpp(192): warning C4244: 'argument': conversion from 'WCHAR' to 'char', possible loss of data
+c:\users\niv\desktop\test1\software-engineering-project\textbox\textbox.cpp(202): warning C4244: '=': conversion from 'WCHAR' to 'char', possible loss of data
+c:\users\niv\desktop\test1\software-engineering-project\textbox\textbox.cpp(205): warning C4244: 'argument': conversion from 'WCHAR' to 'char', possible loss of data
+c:\users\niv\desktop\test1\software-engineering-project\textbox\textbox.cpp(127): warning C4477: 'printf' : format string '%c' requires an argument of type 'int', but variadic argument 1 has type '_KEY_EVENT_RECORD::<unnamed-type-uChar>'
+c:\users\niv\desktop\test1\software-engineering-project\textbox\textbox.cpp(136): warning C4477: 'printf' : format string '%c' requires an argument of type 'int', but variadic argument 1 has type '_KEY_EVENT_RECORD::<unnamed-type-uChar>'
+c:\users\niv\desktop\test1\software-engineering-project\textbox\textbox.cpp(196): warning C4477: 'printf' : format string '%c' requires an argument of type 'int', but variadic argument 1 has type '_KEY_EVENT_RECORD::<unnamed-type-uChar>'
+c:\users\niv\desktop\test1\software-engineering-project\textbox\textbox.cpp(224): warning C4018: '<=': signed/unsigned mismatch
+  TextBox.vcxproj -> C:\Users\Niv\Desktop\test1\Software-Engineering-Project\Debug\TextBox.lib

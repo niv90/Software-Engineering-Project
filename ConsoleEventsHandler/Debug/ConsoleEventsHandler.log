@@ -1,3 +1,3 @@
 ﻿  ConsoleEventsHandler.cpp
-c:\users\sasha\documents\shitotproject\consoleeventshandler\consoleeventshandler.cpp(53): warning C4018: '<': signed/unsigned mismatch
-  ConsoleEventsHandler.vcxproj -> C:\Users\sasha\Documents\shitotProject\Debug\ConsoleEventsHandler.lib
+c:\users\niv\desktop\test1\software-engineering-project\consoleeventshandler\consoleeventshandler.cpp(53): warning C4018: '<': signed/unsigned mismatch
+  ConsoleEventsHandler.vcxproj -> C:\Users\Niv\Desktop\test1\Software-Engineering-Project\Debug\ConsoleEventsHandler.lib
