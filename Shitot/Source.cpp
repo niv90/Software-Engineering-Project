@@ -8,12 +8,14 @@
 #include "../RadioBox/RadioBox.h"
 #include "../NumericBox/NumericBox.h"
 #include "../MessageBoxs/MessageBoxs.h"
+#include "../ComoBox/Comobox.h"
 
 using namespace std;
 
 int main(void) {
 
 	vector<string> stringsA = { "Good", "Day", "Whats", "Up" };
+	vector<string> strings = { "option A", "option B", "option C", "option D" };
 
 	Panel panel(60, 75);
 	panel.setLocationX(2);
@@ -36,11 +38,15 @@ int main(void) {
 	MessageBoxs mb(15, 30);
 	mb.SetBackground(BackgroundColor::Purple);
 
+	Comobox comobox(15, 20, strings);
+	comobox.SetBackground(BackgroundColor::Blue);
+
 	panel.AddControl(&radioBox, 19, 2);
 	panel.AddControl(&tb, 43, 20);
 	panel.AddControl(&checkList, 2, 2);
 	panel.AddControl(&nb, 2, 20);
 	panel.AddControl(&mb, 36, 2);
+	panel.AddControl(&comobox, 20, 20);
 
 	panel.setVisible(true);
 	

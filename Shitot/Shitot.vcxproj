@@ -125,6 +125,9 @@
     <ProjectReference Include="..\CheckList\CheckList.vcxproj">
       <Project>{77f76d10-20eb-4ade-86c7-5d903b1cd5d8}</Project>
     </ProjectReference>
+    <ProjectReference Include="..\Comobox\Comobox.vcxproj">
+      <Project>{f1a9320e-b0bc-474d-baad-b03e45165f2c}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\ConsoleEventsHandler\ConsoleEventsHandler.vcxproj">
       <Project>{18509e00-7760-44be-b9cc-ca9c52dcd01b}</Project>
     </ProjectReference>
